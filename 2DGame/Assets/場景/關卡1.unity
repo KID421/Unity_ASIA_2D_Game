@@ -9238,10 +9238,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f65e9f4efe732e64584148c42cadb604, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 500
+  speed: 600
   groundPoint: {x: 0, y: -0.8, z: 0}
   groundLength: 0.2
-  jump: 350
+  jump: 600
   parRun: "\u8DD1\u6B65\u958B\u95DC"
   parJump: "\u8DF3\u8E8D\u89F8\u767C"
   parDead: "\u6B7B\u4EA1\u958B\u95DC"

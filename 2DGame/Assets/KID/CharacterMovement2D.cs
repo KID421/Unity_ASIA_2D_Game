@@ -1,6 +1,8 @@
 ﻿using UnityEngine;
 
-public class CharacterMovement2D : MonoBehaviour
+namespace KID
+{
+    public class CharacterMovement2D : MonoBehaviour
 {
     [Header("移動速度"), Range(0, 1000)]
     public float speed = 1;
@@ -73,4 +75,5 @@ public class CharacterMovement2D : MonoBehaviour
         Gizmos.color = Color.red;
         Gizmos.DrawRay(transform.position + groundPoint, -transform.up * groundLength);
     }
+}
 }
